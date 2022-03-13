@@ -1,0 +1,113 @@
+[
+  {
+    "resourceType": "Domain",
+    "identifier": {
+      "name": "Technical Domain 1",
+      "community": {
+        "name": "Technical Community"
+      }
+    },
+    "type": {
+      "name": "Data Asset Domain"
+    }
+  },
+  {
+    "resourceType": "Domain",
+    "identifier": {
+      "name": "Technical Domain 1",
+      "community": {
+        "name": "Technical Community"
+      }
+    },
+    "type": {
+      "name": "Data Asset Domain"
+    }
+  },
+  {
+    "resourceType": "Asset",
+    "identifier": {
+      "name": "Asset 1",
+      "domain": {
+        "name": "Business Data Domain 1",
+        "community": {
+          "name": "Data Community"
+        }
+      }
+    },
+    "type": {
+      "name": "Column"
+    }
+  },
+  {
+    "resourceType": "Asset",
+    "identifier": {
+      "name": "Asset 1",
+      "domain": {
+        "name": "Business Data Domain 1",
+        "community": {
+          "name": "Data Community"
+        }
+      }
+    },
+    "type": {
+      "name": "Column"
+    }
+  },
+  {
+    "resourceType": "Asset",
+    "identifier": {
+      "name": "Asset 1",
+      "domain": {
+        "name": "Business Data Domain 1",
+        "community": {
+          "name": "Data Community"
+        }
+      }
+    },
+    "type": {
+      "name": "Column"
+    }
+  },
+  {
+    "resourceType": "Complex Relation",
+    "identifier": {
+      "relations": {
+        "00000000-0000-0000-0000-000000007088:TARGET": [{
+          "name": "Data Element Asset 1",
+          "domain": {
+            "name": "Data Domain",
+            "community": {
+              "name": "The Community"
+            }
+          }
+        }],
+        "00000000-0000-0000-0000-000000007089:TARGET": [{
+          "name": "Data Element Asset 2",
+          "domain": {
+            "name": "Data Domain",
+            "community": {
+              "name": "The Community"
+            }
+          }
+        }],
+        "00000000-0000-0000-0000-000000007090:TARGET": [{
+          "name": "Mapping Specs 1",
+          "domain": {
+            "name": "Mapping Specs Domain",
+            "community": {
+              "name": "The Community"
+            }
+          }
+        } ]
+      }
+    },
+    "complexRelationType": {
+      "name": "Field Mapping"
+    },
+    "attributes": {
+      "Transformation Logic": [{
+        "value": "XXX_COLUMN_1"
+      }]
+    }
+  }
+]

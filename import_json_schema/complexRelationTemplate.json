@@ -1,0 +1,42 @@
+{
+  "resourceType": "Complex Relation",
+  "identifier": {
+    "relations": {
+      "00000000-0000-0000-0000-000000007088:TARGET": [{
+        "name": "$asset1Name",
+        "domain": {
+          "name": "$domain1Name",
+          "community": {
+            "name": "$community1Name"
+          }
+        }
+      }],
+      "00000000-0000-0000-0000-000000007089:TARGET": [{
+        "name": "$asset2Name",
+        "domain": {
+          "name": "$domain1Name",
+          "community": {
+            "name": "$community1Name"
+          }
+        }
+      }],
+      "00000000-0000-0000-0000-000000007090:TARGET": [{
+        "name": "$asset3Name",
+        "domain": {
+          "name": "$domain2Name",
+          "community": {
+            "name": "$community1Name"
+          }
+        }
+      } ]
+    }
+  },
+  "complexRelationType": {
+    "name": "Field Mapping"
+  },
+  "attributes": {
+    "Transformation Logic": [{
+      "value": "$transformationLogic"
+    }]
+  }
+}

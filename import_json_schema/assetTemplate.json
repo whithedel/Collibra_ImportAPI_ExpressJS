@@ -1,0 +1,15 @@
+{
+  "resourceType": "Asset",
+  "identifier": {
+    "name": "$asset",
+    "domain": {
+      "name": "$domain",
+      "community": {
+        "name": "$community"
+      }
+    }
+  },
+  "type": {
+    "name": "$assetType"
+  }
+}

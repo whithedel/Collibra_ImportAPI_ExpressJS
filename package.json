@@ -1,0 +1,30 @@
+{
+  "name": "collibra-importapi-expressjs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.2"
+  },
+  "description": "Express js app to import assets in collibra",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whithedel/Collibra_ImportAPI_ExpressJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whithedel/Collibra_ImportAPI_ExpressJS/issues"
+  },
+  "homepage": "https://github.com/whithedel/Collibra_ImportAPI_ExpressJS#readme"
+}

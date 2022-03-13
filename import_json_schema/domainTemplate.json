@@ -1,0 +1,12 @@
+{
+  "resourceType": "Domain",
+  "identifier": {
+    "name": "$domain",
+    "community": {
+      "name": "$community"
+    }
+  },
+  "type": {
+    "name": "$domainType"
+  }
+}
