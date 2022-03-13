@@ -103,5 +103,8 @@ dist
 # TernJS port file
 .tern-port
 
-#ds store
+# ds store
 .DS_Store
+
+# contain base64Encode file
+base64Encode/
